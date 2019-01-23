@@ -1,0 +1,15 @@
+
+{% extends "base.html" %}
+
+{% block app_content %}
+
+<h2 class="display-4">Modules</h2>
+<ul class="list-group list-group-flush">
+{% for module in modules %}
+ <li class="list-group-item list-group-item-action">{{ module.title }}: <a href="{{ url_for('get_module', module_id=module.id) }}">{{ module.topic }}</a> </li>
+{% endfor %}
+</ul>
+</br>
+
+
+{% endblock %}
