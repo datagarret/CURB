@@ -111,10 +111,9 @@ def get_module(module_id, module_part=1):
 
     mod_curr = 'modules/module{}/module{}_{:02d}.html'.format(module_id, module_id, module_part)
 
-    percent_complete = ":.1%".format(module_part/module_max)
-
     return render_template(mod_curr, module_id=module_id, module_part=module_part,
-                           last_url=last_url, next_url=next_url, module_max=module_max)
+                           last_url=last_url, next_url=next_url, module_max=module_max,
+                           title="Module {}".format(module_id))
 
 
 
