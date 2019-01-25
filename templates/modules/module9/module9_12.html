@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>How do you know if a “working model” is working?</strong>
-</p>
-<p>
+<h4 id="module_name">How do you know if a “working model” is working?</h4>
+<div class="text-center">
     <img
-        border="0"
-        width="198"
-        height="198"
-        src="blob:https://word2cleanhtml.com/34ce5286-e4c9-4284-9e9c-9b0a592de2a9"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM9P12.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     If you notice that you're having the same kinds of problems with different
     people at different times, it's probably time to take a closer look at how

@@ -1,21 +1,15 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>
+<h4 id="module_name">
         What can I do to stop this process before it reaches clinical
         depression?
-    </strong>
-</p>
-<p>
+    </h4>
+<div class="text-center">
     <img
-        border="0"
-        width="198"
-        height="133"
-        src="blob:https://word2cleanhtml.com/f5108f07-b701-4a00-bbfa-8e406bd3f27d"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM14P8.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     Depression tends to feed on itself and gets worse without treatment. You
     can reverse this process by using the techniques we have discussed in the
@@ -28,7 +22,6 @@
     accordingly.
     <br/>
     <br/>
-    <strong>
         No one can cure depression for you. Your friends, your parents, or even
         your doctor can't cure depression without your help. Getting over
         depression takes a lot of willpower on your part-you have to decide
@@ -36,7 +29,6 @@
         use to help yourself, but the most important thing is what you do
         yourself: working with your doctor, keeping a positive outlook, and
         doing whatever you can to help yourself improve.
-    </strong>
-</p>
+    </p>
 
 {% endblock %}

@@ -1,21 +1,13 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>Calm, cool, and collected works</strong>
-</p>
-<p>
+<h4 id="module_name">Calm, cool, and collected works</h4>
+<div class="text-center">
     <img
-        width="198"
-        height="133"
-        src="blob:https://word2cleanhtml.com/aca62a7b-6648-4360-923b-f0b1e8fcc3d7"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM10P9.jpg"
-    />
-    <strong></strong>
-</p>
-<p>
-    <strong>Speaking directly works</strong>
-    <br/>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
+<h5>Speaking directly works</h5>
     The talking style most likely to solve problems and build strong
     relationships is the calm, cool, and direct approach. This means listening
     to what the other person has said, and then clearly and directly telling
@@ -24,9 +16,8 @@
     are unlikely to stay angry. The other person will feel better about working
     things out with you.
 </p>
+<h5>Speaking calmly works</h5>
 <p>
-    <strong>Speaking calmly works</strong>
-    <br/>
     Even if you're upset, it's better to hold your temper back a bit. You want
     the other person to hear you. He or she is more likely to listen to you
     when you're not so angry. Being hostile makes it hard for other people to
@@ -34,9 +25,8 @@
     static-it interferes with the words and sounds. Intense emotions that are
     accusatory and angry are like static that keeps you from being heard.
 </p>
+<h5>Speaking cooly works</h5>
 <p>
-    <strong>Speaking cooly works</strong>
-    <br/>
     This means definitely telling the other person what's bothering you and
     what hurt your feelings. When you state your case, you should tell him or
     her how you see it. However, don't make accusations and try not to be

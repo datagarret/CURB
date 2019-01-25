@@ -1,19 +1,11 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>Skill Builder</strong>
-</p>
-<p>
+<h4 id="module_name">Skill Builder</h4>
+<div class="text-center">
     <img
-        border="0"
-        width="98"
-        height="147"
-        src="blob:https://word2cleanhtml.com/10fb70b3-21a6-4775-a4c7-3aafc7db0a68"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM14P17.jpg"
-    />
-</p>
-<div>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
 </div>
 <ul>
     <li>
@@ -26,7 +18,5 @@
         <br/>
     </li>
 </ul>
-<div>
-</div>
-
+<br>
 {% endblock %}

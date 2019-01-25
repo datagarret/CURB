@@ -1,17 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>Welcome back!</strong>
-</p>
-<p>
+<h4 id="module_name">Welcome back!</h4>
+<div class="text-center">
     <img
-        width="199"
-        height="133"
-        src="blob:https://word2cleanhtml.com/92cbe6c2-f188-4978-89bb-a1797a441a00"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM11P2.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     In the last module we focused on your “talking style” and how it can affect
     your relationships-especially during a conflict. Being calm, cool, and

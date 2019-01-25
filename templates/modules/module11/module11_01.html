@@ -1,17 +1,17 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p align="center">
+<div class="container">
+    <div class="row justify-content-center">
+
+        <div class="col-9">
     <img
-        width="525"
-        height="150"
-        src="blob:https://word2cleanhtml.com/31d7fec2-14d7-4e7e-8a28-60978a9b47db"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM11P1.jpg"
-    />
-</p>
-<p>
-    <strong>Module Eleven</strong>
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
+</div>
+</div>
+<h4 id="module_name">Module Eleven</h4>
 <p>
     <strong>In this module you will learn:</strong>
 </p>

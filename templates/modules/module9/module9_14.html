@@ -1,20 +1,14 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>
+<h4 id="module_name">
         Does that mean I'll never have conflicts with people again?
-    </strong>
-</p>
-<p>
-    <img
-        border="0"
-        width="290"
-        height="194"
-        src="blob:https://word2cleanhtml.com/009a53fe-ce9d-406a-a5c8-30526cc078b1"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM9P14.jpg"
-    />
-</p>
+    </h4>
+    <div class="text-center">
+        <img
+        class="img-fluid rounded"
+        src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+    </div>
 <p>
     No. Conflict is a part of relationships with friends, family and others.
     It's only natural and there's no getting rid of it. Even people in close,

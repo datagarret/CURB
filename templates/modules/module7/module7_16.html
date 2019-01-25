@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>What are my goals?</strong>
-</p>
-<p>
+<h4 id="module_name">What are my goals?</h4>
+<div class="text-center">
     <img
-        border="0"
-        width="198"
-        height="292"
-        src="blob:https://word2cleanhtml.com/2204663b-1a7e-4ed8-ae99-dabeba1011ac"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM7P16.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     One reason people can form and accept negative underlying beliefs is by
     taking to heart unrealistic cultural beliefs about what makes us happy.

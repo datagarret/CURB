@@ -1,17 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>How can I be calm, cool, and collected?</strong>
-</p>
-<p>
+<h4 id="module_name">How can I be calm, cool, and collected?</h4>
+<div class="text-center">
     <img
-        width="198"
-        height="167"
-        src="blob:https://word2cleanhtml.com/3f9c004b-0406-45ad-a422-533d8398d477"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM10P10.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     In the messy room situation, first you'd hear your roommate out. Tell the
     roommate you understand that a dirty room is bothering her/him. Just making

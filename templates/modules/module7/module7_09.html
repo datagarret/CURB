@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>Example: Learning a new language</strong>
-</p>
-<p>
-    <img
-        border="0"
-        width="204"
-        height="136"
-        src="blob:https://word2cleanhtml.com/1a5262e7-ea7b-4131-8d66-c25aea210d49"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM7P9.jpg"
-    />
-</p>
+<h4 id="module_name">Example: Learning a new language</h4>
+    <div class="text-center">
+        <img
+        class="img-fluid rounded"
+        src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+    </div>
 <p>
     Imagine you're taking a Spanish class for the first time. After the first
     few days in class, you want to try out your new skills, so you call up a

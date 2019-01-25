@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>Doing goals:</strong>
-</p>
-<p>
+<h4 id="module_name">Doing goals:</h4>
+<div class="text-center">
     <img
-        border="0"
-        width="128"
-        height="85"
-        src="blob:https://word2cleanhtml.com/7a7c89c7-2bc8-4d66-9d5e-a5ddc2c99a25"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM9P22.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <ul>
     <li>
         Notice once a day how you feel when you talk to your family or close

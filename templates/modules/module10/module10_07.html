@@ -1,17 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>What's my style?</strong>
-</p>
-<p>
+<h4 id="module_name">What's my style?</h4>
+<div class="text-center">
     <img
-        width="198"
-        height="133"
-        src="blob:https://word2cleanhtml.com/87b5d2bc-a961-425f-a48e-6e045b868793"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM10P7.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     Here's what the letter choices stand for:
 </p>

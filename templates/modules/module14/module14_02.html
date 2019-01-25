@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>Welcome back!</strong>
-</p>
-<p>
+<h4 id="module_name">Welcome back!</h4>
+<div class="text-center">
     <img
-        border="0"
-        width="198"
-        height="297"
-        src="blob:https://word2cleanhtml.com/6d77f869-d824-4026-b378-5475602a5e34"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM14P2.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     This is the final module of the Project CURB website. For those of you who
     have completed the entire program, we hope you've learned to recognize and

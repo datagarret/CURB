@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>Using your counter-thought</strong>
-</p>
-<p>
+<h4 id="module_name">Using your counter-thought</h4>
+<div class="text-center">
     <img
-        border="0"
-        width="198"
-        height="299"
-        src="blob:https://word2cleanhtml.com/37a0d0e1-16c4-4e5f-ba7f-18ed118d04cd"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM7P11.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     Now use your counter-thought. Using a counter-thought changes how you view
     the situation. You experienced the same event, but now you feel much better

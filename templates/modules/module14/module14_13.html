@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>What forms of counseling are helpful?</strong>
-</p>
-<p>
+<h4 id="module_name">What forms of counseling are helpful?</h4>
+<div class="text-center">
     <img
-        border="0"
-        width="191"
-        height="128"
-        src="blob:https://word2cleanhtml.com/22c7b900-b548-4abb-a2cb-8836c434e16b"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM14P13.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     Two forms of counseling that are effective treatments for depression are
     cognitive behavior psychotherapy (CBT) and interpersonal psychotherapy

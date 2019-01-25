@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>What if talking doesn't work?</strong>
-</p>
-<p>
+<h4 id="module_name">What if talking doesn't work?</h4>
+<div class="text-center">
     <img
-        border="0"
-        width="198"
-        height="111"
-        src="blob:https://word2cleanhtml.com/ae169c07-1bbc-4f5c-90da-bf52371c406b"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM11P18.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     Sometimes you can't solve a relationship problem even after you are able to
     talk about it. In these cases you have to decide if you can live with the

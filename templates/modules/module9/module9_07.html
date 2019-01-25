@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 
 {% block app_content %}
-<p>
-    <strong>Relationship circles</strong>
-</p>
+<h4 id="module_name">Relationship circles</h4>
 <p>
     One useful way to think about your relationships is to picture a set of
     circles, each standing for the different people in your life. You are at
@@ -16,15 +14,11 @@
 </p>
 <p>
     Here's a picture of what the circles might look like:
-</p>
-<p align="center">
+<div class="text-center">
     <img
-        width="225"
-        height="225"
-        src="blob:https://word2cleanhtml.com/068ba4f1-256f-4bc9-b2dc-ee4cddfbeb16"
-        alt="https://curb.peds.uic.edu/thriveresearch/images/program/curb/teen/CURBM9P7.jpg"
-    />
-</p>
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
 <p>
     For example, let's look at someone's relationship circles. We'll call him
     Claudio. Claudio's family circle includes his parents, with whom he likes

@@ -2,26 +2,17 @@
 
 {% block app_content %}
 
-<div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">What is the main goal of Project CURB?</h2>
-        <p class="lead">In this module, you'll learn how to identify the negative, unrealistic
-        thoughts that drag your mood down and make it harder to achieve your goals.
-        We will teach you how to counter the thoughts that are bothering you as
-        they come up in day-to-day living.</p>
-      </div>
-      <div class="col-md-5">
-          <img
-              class="img-fluid"
-              src="/static/images/module1/image009.jpg"
-          />
-      </div>
-    </div>
-<p>
+<h4 id="module_name">What is the main goal of Project CURB?</h4>
 
-</p>
-<p>
-
+<div class="text-center">
+    <img
+    class="img-fluid rounded"
+    src="/static/images/module{{ module_id}}/M{{ module_id }}-{{module_part }}.png"/>
+</div>
+<p>In this module, you'll learn how to identify the negative, unrealistic
+thoughts that drag your mood down and make it harder to achieve your goals.
+We will teach you how to counter the thoughts that are bothering you as
+they come up in day-to-day living.
 </p>
 
 {% endblock %}
