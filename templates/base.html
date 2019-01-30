@@ -49,7 +49,16 @@
 
         {% if module_part  %}
         </br>
-        <h4> Module {{module_id }} <small>Section {{ module_part }}/{{ module_max }}</small></h4>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Module {{ module_id }} Section {{ module_part}}/{{ module_max }}
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          {% for section in module_part_list %}
+          <a class="dropdown-item" href="{{ url_for('get_module', module_id=module_id, module_part=section) }}"> {{ section }} </a>
+          {% endfor %}
+          </div>
+        </div>
         <hr>
         {% else %}
         {% endif %}

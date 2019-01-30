@@ -113,6 +113,7 @@ def get_module(module_id, module_part=1):
 
     return render_template(mod_curr, module_id=module_id, module_part=module_part,
                            last_url=last_url, next_url=next_url, module_max=module_max,
+                           module_part_list=[i for i in range(1, module_max+1)],
                            title="Module {}".format(module_id))
 
 
